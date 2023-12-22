@@ -44,6 +44,12 @@ Simply clone the repository and run. You have 2 options:
 
 The copied JSON file will be saved in the same folder as the `main.py` file.
 
-## Encoding
+## Encoding Issues
 
-If you're having issues copying due to encoding problems, you can change the encoding in the following line of code:
+If you're having issues copying due to encoding problems, you can change the encoding='utf-8' in
+
+```python
+with open(json_file_path, 'r', encoding='utf-8') as in_file:
+```
+
+to whatever encoding you need
