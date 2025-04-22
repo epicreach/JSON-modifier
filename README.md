@@ -1,4 +1,4 @@
-# JSON-datacopier
+# JSON-modifier
 
 ## How to use
 
